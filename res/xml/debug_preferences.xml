@@ -24,7 +24,7 @@
 
     <CheckBoxPreference
         android:key="enable_hardware_accel_skia"
-        android:defaultValue="false"
+        android:defaultValue="true"
         android:title="@string/pref_development_hardware_accel_skia"
         android:enabled="false" />
 
@@ -35,14 +35,14 @@
 
     <CheckBoxPreference
         android:key="enable_cpu_upload_path"
-        android:defaultValue="false"
+        android:defaultValue="true"
         android:title="@string/pref_development_cpu_upload_path" />
 
     <!-- The javascript console is enabled by default when the user has
          also enabled debug mode by navigating to about:debug. -->
     <CheckBoxPreference
         android:key="javascript_console"
-        android:defaultValue="true"
+        android:defaultValue="false"
         android:title="@string/pref_development_error_console" />
 
     <CheckBoxPreference
@@ -67,7 +67,7 @@
 
     <CheckBoxPreference
         android:key="enable_light_touch"
-        android:defaultValue="false"
+        android:defaultValue="true"
         android:title="Enable light touch" />
 
     <CheckBoxPreference
