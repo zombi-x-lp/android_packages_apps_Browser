@@ -22,7 +22,7 @@
         android:title="@string/pref_lab_quick_controls"
         android:summary="@string/pref_lab_quick_controls_summary" />
         
-        <CheckBoxPreference
+    <CheckBoxPreference
         android:key="enable_hardware_accel"
         android:defaultValue="true"
         android:title="@string/pref_development_hardware_accel" />
